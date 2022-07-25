@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS rates;
+
+CREATE TABLE rates (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    book_id INTEGER NOT NULL,
+    rating INTEGER NOT NULL,
+    review TEXT NOT NULL
+);
